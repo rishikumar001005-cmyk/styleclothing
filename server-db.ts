@@ -1653,6 +1653,19 @@ export async function initializeDatabase(): Promise<void> {
   }
   await persistCollection('coupons');
 
+  // Migrate old /src/assets/images/ paths to /images/ in banners
+  let bannersMigrated = false;
+  for (const banner of cache.banners) {
+    if (banner.image && banner.image.includes('/src/assets/images/')) {
+      banner.image = banner.image.replace('/src/assets/images/', '/images/');
+      bannersMigrated = true;
+    }
+  }
+  if (bannersMigrated) {
+    await replaceCollection('banners', cache.banners);
+    console.log('Migrated banner image paths from /src/assets/images/ to /images/');
+  }
+
   initialized = true;
   console.log(`MongoDB connected: ${MONGODB_DB}`);
   console.log('Collections: products, users, orders, coupons, banners, reviews, contacts');
