@@ -16,10 +16,10 @@ import ContactView from './components/ContactView';
 import BlogView from './components/BlogView';
 import ShopView from './components/ShopView';
 
-const categoryWomenImg = '/src/assets/images/category_women_1784714372779.jpg';
-const categoryMenImg = '/src/assets/images/category_men_1784714391512.jpg';
-const categoryKidsImg = '/src/assets/images/category_kids_1784714407689.jpg';
-const categoryAccessoriesImg = '/src/assets/images/category_accessories_1784716861515.jpg';
+const categoryWomenImg = '/images/category_women_1784714372779.jpg';
+const categoryMenImg = '/images/category_men_1784714391512.jpg';
+const categoryKidsImg = '/images/category_kids_1784714407689.jpg';
+const categoryAccessoriesImg = '/images/category_accessories_1784716861515.jpg';
 
 export default function App() {
   

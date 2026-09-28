@@ -73,7 +73,7 @@ export default function Navbar({
     accessories: {
       categories: ['Watches', 'Jewelry', 'Belts', 'Sunglasses', 'Hats', 'Scarves', 'Bags', 'Wallets'],
       featText: 'Atelier Details: Hand-finished Leather',
-      featImage: '/src/assets/images/accessories_final.png',
+      featImage: '/images/accessories_final.png',
     },
   };
 

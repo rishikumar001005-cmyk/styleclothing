@@ -1410,7 +1410,7 @@
       "id": "b1",
       "title": "THE MODERN MAN",
       "subtitle": "Effortless monochrome styling, structural tailoring, and minimal profiles. Apply coupon STYLEM10 at checkout for an exclusive 10% discount.",
-      "image": "/src/assets/images/hero_men_banner_1784614317283.jpg",
+      "image": "/images/hero_men_banner_1784614317283.jpg",
       "link": "#/shop/men",
       "isActive": true
     },
@@ -1418,7 +1418,7 @@
       "id": "b2",
       "title": "THE MODERN WOMEN",
       "subtitle": "A quiet luxury capsule collection showcasing fine Italian silks and graceful, flowing silhouettes. Apply coupon STYLEF10 at checkout for an exclusive 10% discount.",
-      "image": "/src/assets/images/hero_women_banner_1784614332439.jpg",
+      "image": "/images/hero_women_banner_1784614332439.jpg",
       "link": "#/shop/women",
       "isActive": true
     },
@@ -1426,7 +1426,7 @@
       "id": "b3",
       "title": "THE MODERN KIDS",
       "subtitle": "Playful designs woven from pure soft organic cotton and breathable fine linen. Apply coupon STYLEK10 at checkout for an exclusive 10% discount.",
-      "image": "/src/assets/images/hero_kids_banner_1784614633336.jpg",
+      "image": "/images/hero_kids_banner_1784614633336.jpg",
       "link": "#/shop/kids",
       "isActive": true
     }

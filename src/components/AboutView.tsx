@@ -22,7 +22,7 @@ export default function AboutView() {
 
         <div className="relative aspect-[16/9] w-full overflow-hidden border border-neutral-800 shadow-md mb-16">
           <img
-            src="/src/assets/images/aboutus_final.png"
+            src="/images/aboutus_final.png"
             alt="Luxury Atelier Boutique Interior"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-700 ease-out"
