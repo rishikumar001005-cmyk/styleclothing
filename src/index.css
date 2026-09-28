@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", "Cinzel", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-luxury-gold: #111111;
+  --color-luxury-gold-dark: #262626;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-[#111111] selection:bg-[#111111] selection:text-white antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F9F9F9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E5E5E5;
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #CCCCCC;
+  }
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid #eeeeee;
+}
+
+.glass-panel-dark {
+  background: rgba(17, 17, 17, 0.98);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #111111 0%, #333333 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold-gradient {
+  border-image: linear-gradient(to right, #111111, #444444) 1;
+}
+
+.luxury-grid {
+  background-size: 50px 50px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.01) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 1px, transparent 1px);
+}
